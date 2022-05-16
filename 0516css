@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+   a{
+   color:teal;
+   text-decoration:underline;
+   }
+   
+   #heading{
+   color:teal;
+   text-decoration: line-through
+   }
+   
+   .headings {
+   color:red;
+   text-decoration:overline;
+   }
+   
+   body{background-color:skyblue;}
+
+   body{color:black;}
+   p{color:maroon;}
+
+   a{text-shadow:2px 1px #3399CC;}
+   
+   .serif{font-family:"Times New Roman", Times, serif;}
+   .sansserif{font-family: Arial, Helvetica, sans-serif;}
+
+   a{background-color:#ffffff;
+     color:darkslategray;
+     font-size:1.3em;
+     text-decoration:none;}
+   
+</style>
+</head>
+<body>
+   <h2><a>여기 적용됩니다</a></h2>
+   /*a태그*/
+   
+   <br><h2><a id="heading">id는 여기 적용</a></h2>
+   /*a태그에 넣은 id태그*/
+   
+   <br><h2><a class="headings">클래스는 여기에 적용</a></h2>
+   /*a태그에 넣은 클래스태그(클래스는 같은 선택자가 아니여도 적용가능)*/
+   
+   
+   <br>/*
+   글씨 색깔 바꾸는 태그
+   body{color:red;}
+   p{color:maroon;}
+   */
+   <br>
+   /*
+   글자에 그림자 {text-shadow:?px ?px #000000;}
+   */
+   
+   <p class="serif">글꼴적용</p>
+   
+   <p><a href="https://classroom.google.com/c/NDY4Mjc2NzQ5MjY5" title="클래스룸">클래스룸으로 가기</a></p>
+   /*링크 스타일 설정*/
+   
+   
+</body>
+</html>
