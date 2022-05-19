@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+   <style>
+      li{display:inline}
+      
+      .fixed{
+         border:3px solid blue;
+         width: 300px;
+         margin: auto;
+      }
+      
+      div.page {
+         border:3px solid #CD5C5C;
+         overflow:auto;
+      }
+      h2{text-align:center;}
+      header{border:3pxsolid #FFD700;}
+      nav{
+         border:3px solid#FF1493;
+         width:150px;
+         float:left;
+      }
+      section{
+      border:3px solid #00BFFF;
+      margin-left:156px;
+      }
+      footer{border:3px solid #00FA9A;}
+      
+   
+   </style>
+</head>
+<body>
+
+   <div class="page" style='background-image:url("img/바다.jpg"); color:white' >
+   
+      <header >
+         <h2>참치 !!</h2>
+      </header>
+      <nav>
+         <h2>참치.</h2>
+         <P>참치는 신이다 참치는 무적이고 참치는 전설이다</P>
+      </nav>
+      <section>
+         <h2>참치 설명</h2>
+         <p>다랑어는 분포 수역에 따라 열대성 다랑어, 온대성 다랑어로 나뉘어지는데 일반적으로 열대성 다랑어에는 가다랑어, 눈다랑어, 황다랑어가 속하고, 온대성 다랑어에는 참다랑어, 날개다랑어 등이 속한다. 그 외 연안성 다랑어류가 있다.
+         그중 참다랑어는 최대 몸길이 3 m, 몸무게 약 300 kg 내외(북대서양 서식종 기준)까지 성장하며 일반적 300 kg을 넘는 참치는 특물로 거래된다.
+         등쪽의 짙은 푸른색과 중앙과 배쪽 은회색 바탕에 흰색 가로띠와 둥근 무늬를 가지고 있다.
+         대만/홍콩 근해인 남중국해에서는 4~6월, 한국 동해에서는 8월에 산란하며, 태평양 · 대서양 · 인도양의 열대 · 온대 · 아한대 해역의 표층수역에서 서식한다.</p>
+      </section>
+      <footer>
+         <h2>참치참치참치참치참치</h2>
+      </footer>
+   
+   </div>
+
+   <div class="fixed position">이건 못 참치ㅋㅋ
+   <br>
+   <br>
+
+   <h1>이건 참치</h1>
+   <ul class="circle">
+      <li><a href="https://namu.wiki/w/%EC%B0%B8%EC%B9%98">참치</a></li>
+   <h1>이건 연어</h1>   
+      <li><a href="https://namu.wiki/w/%EC%97%B0%EC%96%B4">연어</a></li>
+      
+   <h1>이건 꽁치</h1>
+      <li><a href="https://namu.wiki/w/%EA%BD%81%EC%B9%98">꽁치</a></li>   
+   </ul>
+   </div>
+   <div>
+   <img src="img/참치.jpg" width="400" height="400">
+   
+   </div>
+   
+   
+   
+</body>
+</html>
