@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>라이엇게임즈</title>
+<style>
+	body{
+		background-image:url(img/lolcear.png);	
+		background-repeat: no-repeat;
+		background-position: left top;
+		
+	}
+	div.right{
+		width: 300px;
+		padding:10px;
+		margin:0;
+		position: absolute;
+		right: 200px;
+		top: 0px;
+	}
+	
+	div{
+		
+		width:200px;
+		padding:10px;
+		margin:0;
+		positon:absolute;
+		right:0;
+	}
+	.dropdown{
+		position:relative;
+		display:inline-block;
+		background-color: #000000;
+		color: #ffffff;
+	}
+	.dropdown-content{
+		display:none;
+		position:absolute;
+		background-color:#000000;
+		color:#ffffff;
+		min-width:160px;
+		padding:8px;
+	}
+	.dropdown:hover .dropdown-content {display:block;}
+</style>
+</head>
+
+
+
+	<div>
+	<p><a href="https://www.riotgames.com/ko" title="라이엇게임즈"><h2>HOME</h2></a></p>
+			<div class="dropdown">
+		<span> <h3>GAME</h3></span>
+		<div class="dropdown-content">
+			<p><a href="http://127.0.0.1:5500/src/main/webapp/0520val.html" title="발로란트">발로란트</a></p>
+			<p><a href="http://127.0.0.1:5500/src/main/webapp/0520lol.html" title="리그오브레전드">리그 오브 레전드</a></p>
+			<p><a href="http://127.0.0.1:5500/src/main/webapp/0520tft.html" title="전략적 팀 전투">전략적 팀 전투</a></p>
+		</div>
+	</div>
+		
+	</div>
+	<div>
+		※
+			<form>
+				<select name="fodrnlwl">
+					<option value="eng" selected> English
+					<option value="kor" > 한국어
+					<option value="chinse" > 中國語
+					<option value="japan" > 日本語
+					
+				</select>
+			</form>
+	</div>
+	<div class="pad">
+		<form>
+		아이디:<input type="text" name="id"><br>
+		비밀번호:<input type="text" name="password">
+		<br>
+		<input type="submit" value="로그인" >
+		<input type="submit" value="회원가입">
+		</form>
+	</div>
+	<div class="right">
+	<img src="img/라이엇로고2.png" />
+	</div>
+<body>
+
+</body>
+</html>
