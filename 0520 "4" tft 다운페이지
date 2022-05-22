@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tft</title>
+    <style>
+
+        div{
+            width: 1300px;
+            margin: auto;
+        }
+        div.mid{
+            margin:auto;
+            width:105px;
+            background-color: aquamarine;
+        }
+    
+    </style>
+
+</head>
+<body>
+    <div>
+        <img src="img\tft2.jpg" >
+    </div>
+    <div class="mid">
+        <p><a href="https://teamfighttactics.leagueoflegends.com/ko-kr/" title="다운로드"><h2>다운로드</h2></a></p>
+    </div>
+
+
+</body>
+</html>
