@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>리그오브레전드</title>
+<style>
+
+	
+	div{
+        width: 500px;
+        margin: auto;
+    }
+	div.mid{
+        margin:auto;
+        width:90px;
+        background-color: #50C2FF;
+    }
+</style>
+</head>
+<body>
+	<div>
+		<img src="img/리그오브레전드,.jpg">
+	</div>
+	<div class="mid" >
+		<p><a href="https://download.kr.riotgames.com/league?_gl=1*xz7o8*_ga*MzIyNzUyNjY4LjE2NTMwMTE4NDU.*_ga_FXBJE5DEDD*MTY1MzAxMTg0My4xLjAuMTY1MzAxMTg0My42MA.." title="다운로드">다운로드</a></p>
+	</div>
+
+</body>
+</html>
